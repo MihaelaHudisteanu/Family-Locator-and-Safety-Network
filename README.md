@@ -1,0 +1,3 @@
+The objective of this project is to create an application that integrates real-time location tracking and safety alert features.
+In order to ensure ease of use, the application will have an intuitive and user-friendly graphical interface. The app uses a concurrent TCP server. TCP establishes a connection before data
+exchange, ensuring a reliable and ordered flow of information. For the communication between server and clients, the app uses stream sockets. One user needs at the same time to send its location, send alarms, and receive such information from the other users, so it is necessary to use multithreading in the client program. To ensure data integrity the program uses mutex.
